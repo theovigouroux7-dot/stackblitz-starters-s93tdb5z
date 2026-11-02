@@ -155,7 +155,7 @@ export default function Accueil() {
 
       <h2>Contrats enregistrés</h2>
       {contrats.length === 0 && (
-        <p className="muted">Aucun contrat pour l'instant.</p>
+        <p className="muted">Aucun contrat pour l’instant.</p>
       )}
       <ul className="liste">
         {contrats.map((c) => (
